@@ -1,0 +1,597 @@
+.sprite_redes {
+  display: inline-block;
+  height: 40px;
+  background-image: url("../img/social-media-icons1.jpg");
+  background-repeat: no-repeat;
+  width: 40px;
+  border-radius: 23%;
+  background-size: 740%;
+  margin: 10% 10% 0 0;
+}
+.caja_completa {
+  width: 100%;
+  height: 100%;
+}
+.nombre_empresa {
+  font-family: "letrasLogo";
+  text-transform: uppercase;
+  color: white;
+}
+@keyframes banner1 {
+  12.5% {
+    transform: translateX(0) translateY(0);
+  }
+  25% {
+    transform: translateX(-960px) translateY(0);
+  }
+  87.5% {
+    transform: translateX(-960px) translateY(0);
+  }
+  99.9% {
+    transform: translateX(0) translateY(0);
+  }
+}
+@keyframes banner2 {
+  12.5% {
+    transform: translateX(0) translateY(0);
+  }
+  25% {
+    transform: translateX(-960px) translateY(0);
+  }
+  37.5% {
+    transform: translateX(-960px) translateY(0);
+  }
+  50% {
+    transform: translateX(-960px) translateY(324px);
+  }
+  62.5% {
+    transform: translateX(0) translateY(324px);
+  }
+  99.9% {
+    transform: translateX(0) translateY(0);
+  }
+}
+@keyframes banner3 {
+  37.5% {
+    transform: translateX(0) translateY(0);
+  }
+  50% {
+    transform: translateX(0) translateY(324px);
+  }
+  62.5% {
+    transform: translateX(0) translateY(324px);
+  }
+  75% {
+    transform: translateX(0) translateY(0);
+  }
+  99.9% {
+    transform: translateX(0) translateY(0);
+  }
+}
+@keyframes banner4 {
+  0% {
+    transform: translateX(0) translateY(0);
+  }
+  12.5% {
+    transform: translateX(0) translateY(324px);
+  }
+  25% {
+    transform: translateX(-960px) translateY(324px);
+  }
+  62.5% {
+    transform: translateX(-960px) translateY(324px);
+  }
+  75% {
+    transform: translateX(-960px) translateY(0);
+  }
+  87.5% {
+    transform: translateX(-960px) translateY(0);
+  }
+  99.9% {
+    transform: translateX(0) translateY(0);
+  }
+}
+@keyframes flecha_derecha {
+  11% {
+    transform: rotate(0);
+  }
+  12.5% {
+    transform: rotate(180deg);
+  }
+  25% {
+    transform: rotate(180deg);
+  }
+  26.5% {
+    transform: rotate(0);
+  }
+  36% {
+    transform: rotate(0);
+  }
+  37.5% {
+    transform: rotate(90deg);
+  }
+  43.75% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(90deg);
+  }
+  51.5% {
+    transform: rotate(0);
+  }
+  59% {
+    transform: rotate(0);
+  }
+  62.5% {
+    transform: rotate(-90deg);
+  }
+  68.75% {
+    transform: rotate(-90deg);
+  }
+  75% {
+    transform: rotate(-90deg);
+  }
+  76.5% {
+    transform: rotate(0);
+  }
+  81.25% {
+    transform: rotate(0);
+  }
+  99.9% {
+    transform: rotate(0);
+  }
+}
+@keyframes flecha_izquierda {
+  0% {
+    transform: rotate(0);
+  }
+  1.5% {
+    transform: rotate(180deg);
+  }
+  36% {
+    transform: rotate(180deg);
+  }
+  37.5% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(90deg);
+  }
+  51.5% {
+    transform: rotate(180deg);
+  }
+  59% {
+    transform: rotate(180deg);
+  }
+  62.5% {
+    transform: rotate(270deg);
+  }
+  75% {
+    transform: rotate(270deg);
+  }
+  76.5% {
+    transform: rotate(180deg);
+  }
+  86% {
+    transform: rotate(180deg);
+  }
+  87.5% {
+    transform: rotate(0);
+  }
+  99.9% {
+    transform: rotate(0);
+  }
+}
+@font-face {
+  font-family: "letrasLogo";
+  src: url("../font/01 Digitall.ttf");
+}
+@font-face {
+  font-family: "textoWeb";
+  src: url("../font/geforce-light.ttf");
+}
+@font-face {
+  font-family: "textoWebBold";
+  src: url("../font/geforce-bold.ttf");
+}
+main {
+  max-width: 960px;
+  margin: auto;
+  font-family: "textoWebBold";
+}
+header {
+  background-color: #0c36cd;
+  padding: 2%;
+}
+#logo {
+  vertical-align: top;
+  width: 30%;
+  height: 50%;
+  margin: 1% 0 0 4% ;
+  display: inline-block;
+}
+#marca {
+  font-family: "letrasLogo";
+  text-transform: uppercase;
+  color: white;
+  width: 29%;
+  font-size: 550%;
+  display: inline-block;
+}
+#marca input {
+  width: 100%;
+  height: 100%;
+  vertical-align: top;
+}
+.marca_h2 {
+  font-size: 60%;
+  position: relative;
+}
+#busqueda {
+  width: 100%;
+  height: 0.3em;
+  position: relative;
+  top: 20%;
+  margin-top: 20%;
+}
+#busqueda input {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+#lupa {
+  position: absolute;
+  width: 9%;
+  height: 100%;
+  bottom: 160%;
+  left: 90%;
+}
+#lupa img {
+  width: 100%;
+  height: 100%;
+}
+#login {
+  vertical-align: top;
+  display: inline-block;
+  background-color: #4e6bd7;
+  width: 29%;
+  margin: 5% 0 0 4%;
+  border-radius: 10%;
+}
+#login figure {
+  width: 90%;
+}
+#login figure img {
+  width: 20%;
+  margin: 3% 10%;
+  display: inline-block;
+}
+#login figure figcaption {
+  text-align: center;
+  display: inline-block;
+  font-size: 110%;
+}
+#login figure figcaption a {
+  color: #1da1c0;
+  position: relative;
+  bottom: 1em;
+}
+#compras::before {
+  content: "";
+  background-color: #ffffff;
+  width: 95%;
+  height: 0.15em;
+  margin: 0 auto;
+  display: block;
+}
+nav {
+  background-color: #4e6bd7;
+  margin: 0 0 2% 0;
+}
+.menu {
+  display: inline-block;
+  width: 33.8%;
+  text-align: center;
+  font-size: 3em;
+  background-color: white;
+  margin: -4px;
+}
+.menu a {
+  color: #0c36cd;
+  display: inline-block;
+  width: 100%;
+  padding: 5% 0;
+}
+#banner {
+  position: relative;
+  height: 325px;
+  overflow: hidden;
+}
+#banner img {
+  width: 100%;
+}
+#banner .imagen1 {
+  position: absolute;
+  animation-name: banner1;
+  animation-duration: 100s;
+  animation-iteration-count: infinite;
+}
+#banner .imagen2 {
+  position: absolute;
+  left: 960px;
+  animation-name: banner2;
+  animation-duration: 100s;
+  animation-iteration-count: infinite;
+}
+#banner .imagen3 {
+  position: absolute;
+  top: -324px;
+  animation-name: banner3;
+  animation-duration: 100s;
+  animation-iteration-count: infinite;
+}
+#banner .imagen4 {
+  position: absolute;
+  left: 960px;
+  animation-name: banner4;
+  animation-duration: 100s;
+  animation-iteration-count: infinite;
+}
+#banner .absolute {
+  position: absolute;
+  top: 45%;
+  left: 92%;
+  width: 7%;
+}
+#banner .izquierda {
+  opacity: 0.6;
+  left: 1%;
+  transform: rotate(180deg);
+  animation-name: flecha_izquierda;
+  animation-duration: 100s;
+  animation-iteration-count: infinite;
+}
+#banner .derecha {
+  opacity: 0.6;
+  animation-name: flecha_derecha;
+  animation-duration: 100s;
+  animation-iteration-count: infinite;
+}
+.producto {
+  width: 29%;
+  margin: 1.70%;
+  border: #4e6bd7 3px solid;
+  border-radius: 2%;
+  display: inline-block;
+  position: relative;
+}
+.producto img {
+  width: 100%;
+}
+.producto h2 {
+  position: absolute;
+  left: 0.1%;
+  top: 80.8%;
+  width: 86.5%;
+  background-color: #4e6bd7;
+  padding: 20px 10px 0 25px;
+  height: 2em;
+  border: white 1px solid;
+  font-family: "textoWebBold";
+  color: white;
+  text-transform: uppercase;
+}
+.producto var {
+  position: absolute;
+  border-radius: 10px;
+  border: white solid 2px;
+  background-color: #4e6bd7;
+  bottom: 87%;
+  left: 62%;
+  width: 30%;
+  padding: 2%;
+  text-align: center;
+  color: white;
+}
+.producto .oferta {
+  position: absolute;
+  top: 63%;
+  left: -7%;
+  width: 30%;
+  z-index: 1;
+}
+#paginacion {
+  background-color: #0c36cd;
+  width: 100%;
+  margin: 35px 0 25px 0;
+}
+#paginacion ul {
+  margin: auto;
+  width: 32%;
+}
+#paginacion ul li {
+  display: inline-block;
+  color: white;
+  font-family: "textoWebBold";
+  width: 18%;
+  vertical-align: middle;
+}
+#paginacion ul li a {
+  display: inline-block;
+  color: white;
+  font-size: 1.5em;
+  margin: 10px;
+}
+#paginacion ul li img {
+  width: 100%;
+}
+#oferta_especial {
+  width: 100%;
+  margin: 0;
+  background: #0c36cd;
+}
+#oferta_especial #reproductor {
+  display: block;
+  width: 60%;
+  margin: auto;
+  position: relative;
+  border-radius: 1%;
+  border: double #4e6bd7 10px;
+}
+#oferta_especial #reproductor video {
+  width: 100%;
+}
+#oferta_especial #reproductor div #barra {
+  position: absolute;
+  top: 40%;
+  display: inline-block;
+  width: 70%;
+  background: lightgray;
+  height: 18%;
+  margin: 0 0 0 5%;
+}
+#oferta_especial #reproductor .botonesReproductor {
+  position: absolute;
+  cursor: pointer;
+  top: 90%;
+  width: 100%;
+  height: 11%;
+  background-color: #0c36cd;
+}
+#oferta_especial #reproductor .botonesReproductor div {
+  display: inline-block;
+  height: 100%;
+  margin-top: 0.5%;
+  background-image: url("../img/Controles_multimedia.png");
+  background-size: 540%;
+  background-repeat: no-repeat;
+  width: 6%;
+}
+#oferta_especial #reproductor .botonesReproductor div #progreso {
+  margin-top: 0;
+  display: block;
+  background: red;
+}
+#play {
+  border-radius: 0.4em;
+  background-position: 1% 0;
+}
+#volumenMas {
+  border-radius: 0.4em;
+  background-position: 67% 0;
+}
+#volumenMenos {
+  border-radius: 0.4em;
+  background-position: 99% 0;
+}
+.guiones::after {
+  content: "-";
+  color: white;
+  margin: 60%;
+}
+.guiones::before {
+  content: " ";
+}
+.gira180 {
+  transform: rotate(0.5turn);
+  margin-right: 5px;
+}
+footer {
+  background-color: #0c36cd;
+}
+footer li:first-child {
+  margin-bottom: 12%;
+  color: #1da1c0;
+}
+footer ul {
+  display: inline-block;
+  width: 22%;
+  margin: 5.5%;
+  font-size: 1.2em;
+  color: white;
+}
+#contacto::before {
+  content: "";
+  display: block;
+  width: 90%;
+  height: 3px;
+  margin: auto;
+  background-color: #1da1c0;
+  border: 1px solid #2c6e7d;
+  outline: 2px solid #243a83;
+}
+#contacto {
+  width: 100%;
+}
+#contacto figure {
+  display: inline-block;
+  width: 22%;
+  height: 40%;
+  margin: 5.5%;
+  font-size: 1.2em;
+  color: #1da1c0;
+}
+.facebook {
+  display: inline-block;
+  height: 40px;
+  background-image: url("../img/social-media-icons1.jpg");
+  background-repeat: no-repeat;
+  width: 40px;
+  border-radius: 23%;
+  background-size: 740%;
+  margin: 10% 10% 0 0;
+  background-position: -29px -14px;
+}
+.facebook a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.twitter {
+  display: inline-block;
+  height: 40px;
+  background-image: url("../img/social-media-icons1.jpg");
+  background-repeat: no-repeat;
+  width: 40px;
+  border-radius: 23%;
+  background-size: 740%;
+  margin: 10% 10% 0 0;
+  background-position: -128px -14px;
+}
+.twitter a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.google {
+  display: inline-block;
+  height: 40px;
+  background-image: url("../img/social-media-icons1.jpg");
+  background-repeat: no-repeat;
+  width: 40px;
+  border-radius: 23%;
+  background-size: 740%;
+  margin: 10% 10% 0 0;
+  background-position: -29px -117px;
+}
+.google a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.marca {
+  font-family: "letrasLogo";
+  text-transform: uppercase;
+  color: white;
+  display: inline-block;
+  width: 22%;
+  margin: 5.5%;
+  font-size: 1.2em;
+}
+.marca h2 {
+  font-size: 3em;
+}
+.marca h3 {
+  font-size: 1.8em;
+}

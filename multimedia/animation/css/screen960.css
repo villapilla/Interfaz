@@ -1,0 +1,223 @@
+main {
+  width: 960px;
+}
+@keyframes banner1 {
+  12.5% {
+    transform: translateX(0) translateY(0);
+  }
+  25% {
+    transform: translateX(-960px) translateY(0);
+  }
+  87.5% {
+    transform: translateX(-960px) translateY(0);
+  }
+  99.9% {
+    transform: translateX(0) translateY(0);
+  }
+}
+@keyframes banner2 {
+  12.5% {
+    transform: translateX(0) translateY(0);
+  }
+  25% {
+    transform: translateX(-960px) translateY(0);
+  }
+  37.5% {
+    transform: translateX(-960px) translateY(0);
+  }
+  50% {
+    transform: translateX(-960px) translateY(324px);
+  }
+  62.5% {
+    transform: translateX(0) translateY(324px);
+  }
+  99.9% {
+    transform: translateX(0) translateY(0);
+  }
+}
+@keyframes banner3 {
+  37.5% {
+    transform: translateX(0) translateY(0);
+  }
+  50% {
+    transform: translateX(0) translateY(324px);
+  }
+  62.5% {
+    transform: translateX(0) translateY(324px);
+  }
+  75% {
+    transform: translateX(0) translateY(0);
+  }
+  99.9% {
+    transform: translateX(0) translateY(0);
+  }
+}
+@keyframes banner4 {
+  0% {
+    transform: translateX(0) translateY(0);
+  }
+  12.5% {
+    transform: translateX(0) translateY(324px);
+  }
+  25% {
+    transform: translateX(-960px) translateY(324px);
+  }
+  62.5% {
+    transform: translateX(-960px) translateY(324px);
+  }
+  75% {
+    transform: translateX(-960px) translateY(0);
+  }
+  87.5% {
+    transform: translateX(-960px) translateY(0);
+  }
+  99.9% {
+    transform: translateX(0) translateY(0);
+  }
+}
+@keyframes flecha_derecha {
+  11% {
+    transform: rotate(0);
+  }
+  12.5% {
+    transform: rotate(180deg);
+  }
+  25% {
+    transform: rotate(180deg);
+  }
+  26.5% {
+    transform: rotate(0);
+  }
+  36% {
+    transform: rotate(0);
+  }
+  37.5% {
+    transform: rotate(90deg);
+  }
+  43.75% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(90deg);
+  }
+  51.5% {
+    transform: rotate(0);
+  }
+  59% {
+    transform: rotate(0);
+  }
+  62.5% {
+    transform: rotate(-90deg);
+  }
+  68.75% {
+    transform: rotate(-90deg);
+  }
+  75% {
+    transform: rotate(-90deg);
+  }
+  76.5% {
+    transform: rotate(0);
+  }
+  81.25% {
+    transform: rotate(0);
+  }
+  99.9% {
+    transform: rotate(0);
+  }
+}
+@keyframes flecha_izquierda {
+  0% {
+    transform: rotate(0);
+  }
+  1.5% {
+    transform: rotate(180deg);
+  }
+  36% {
+    transform: rotate(180deg);
+  }
+  37.5% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(90deg);
+  }
+  51.5% {
+    transform: rotate(180deg);
+  }
+  59% {
+    transform: rotate(180deg);
+  }
+  62.5% {
+    transform: rotate(270deg);
+  }
+  75% {
+    transform: rotate(270deg);
+  }
+  76.5% {
+    transform: rotate(180deg);
+  }
+  86% {
+    transform: rotate(180deg);
+  }
+  87.5% {
+    transform: rotate(0);
+  }
+  99.9% {
+    transform: rotate(0);
+  }
+}
+#banner {
+  position: relative;
+  height: 325px;
+  overflow: hidden;
+}
+#banner img {
+  width: 100%;
+}
+#banner .imagen1 {
+  position: absolute;
+  animation-name: banner1;
+  animation-duration: 50s;
+  animation-iteration-count: infinite;
+}
+#banner .imagen2 {
+  position: absolute;
+  left: 960px;
+  animation-name: banner2;
+  animation-duration: 50s;
+  animation-iteration-count: infinite;
+}
+#banner .imagen3 {
+  position: absolute;
+  top: -324px;
+  animation-name: banner3;
+  animation-duration: 50s;
+  animation-iteration-count: infinite;
+}
+#banner .imagen4 {
+  position: absolute;
+  left: 960px;
+  animation-name: banner4;
+  animation-duration: 50s;
+  animation-iteration-count: infinite;
+}
+#banner .absolute {
+  position: absolute;
+  top: 45%;
+  left: 92%;
+  width: 7%;
+}
+#banner .izquierda {
+  opacity: 0.6;
+  left: 1%;
+  transform: rotate(180deg);
+  animation-name: flecha_izquierda;
+  animation-duration: 50s;
+  animation-iteration-count: infinite;
+}
+#banner .derecha {
+  opacity: 0.6;
+  animation-name: flecha_derecha;
+  animation-duration: 50s;
+  animation-iteration-count: infinite;
+}

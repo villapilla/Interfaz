@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/video.css">
+	<script src="js/main.js"></script>
+	<title>Video</title>
+</head>
+<body>
+	<div id="reproductor">
+		<video id="video">
+			<source src="video/alaska_promotion.mp4" type="video/mp4">
+  			<source src="video/alaska_promotion.ogv" type="video/ogg">
+  			<source src="video/alaska_promotion.webm" type="video/webm">
+  			Tu navegador no soporte la etiqueta video de HTML5.
+  			<a href="video/small.ogv">Puedes descargar aqui el video</a>
+		</video>
+		<div class="botonesReproductor">
+			<div name="play" id="play"></div>
+			<div name="volumenMas" id="volumenMas"></div>
+			<div name="volumenMenos" id="volumenMenos"></div>
+            <div name="barraReproduccion" id="barra">
+                <div id="progreso"></div>
+            </div>
+		</div>
+	</div>
+</body>
+</html>

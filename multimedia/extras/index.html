@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <title>Video</title>
+	<link rel="stylesheet" href="css/video.css">
+	<script src="js/main.js"></script>
+</head>
+<body>
+	<div id="reproductor">
+		<video id="video">
+			<source src="video/small.mp4" type="video/mp4">
+  			<source src="video/small.ogv" type="video/ogg">
+  			<source src="video/small.webm" type="video/webm">
+  			Tu navegador no soporta la etiqueta video de HTML5.
+  			<a href="video/small.ogv">Puedes descargar aqui el video</a>
+		</video>
+		<div class="botonesReproductor">
+			<div id="play"></div>
+			<div id="volumenMas"></div>
+			<div id="volumenMenos"></div>
+            <div id="barra">
+                <div id="progreso"></div>
+            </div>
+		</div>
+	</div>
+</body>
+</html>

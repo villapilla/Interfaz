@@ -1,0 +1,16 @@
+{
+    "name" : "interfaz_shieldHardware",
+    "description": "Design & develop DIW",
+    "license": "MIT",
+    "version" : "0.0.1",
+    "dependencies" : {
+        "grunt": ">=0.4.0",
+        "grunt-cli": ">=0.1.13",
+        "grunt-contrib-less": "latest",
+        "grunt-contrib-watch": "latest"
+    },
+    "repository" : {
+        "type" : "git",
+	"url" : "git://github.com/username/repository.git"
+    }
+}
