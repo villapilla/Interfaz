@@ -1,0 +1,17 @@
+video {
+    border: solid 1px;
+    display: inline-block;
+    width: 500px;
+}
+img {
+    display: inline-block;
+    left: 0.6%;
+    top: 2.2%;
+    border: solid 1px;
+    position: absolute;
+}
+canvas {
+    display: inline-block;
+    border: solid 2px;
+    width: 500px;
+}
